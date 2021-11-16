@@ -18,6 +18,7 @@
 
 1. 目前只支持mp4格式影片，后续会逐渐添加其他格式。
 2. 当前仍需要本机安装JDK和Maven来运行项目，后续会封装成EXE。
+3. 本项目当前只包含了springboot开发的server端代码。前端代码（使用Element-UI开）暂未上传。
 
 ### about us
 
