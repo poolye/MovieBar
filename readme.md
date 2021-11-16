@@ -18,3 +18,7 @@
 
 1. 目前只支持mp4格式影片，后续会逐渐添加其他格式。
 2. 当前仍需要本机安装JDK和Maven来运行项目，后续会封装成EXE。
+
+### about us
+
+[coderbbb](https://www.coderbbb.com)
