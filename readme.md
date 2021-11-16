@@ -20,6 +20,12 @@
 2. 当前仍需要本机安装JDK和Maven来运行项目，后续会封装成EXE。
 3. 本项目当前只包含了springboot开发的server端代码。前端代码（使用Element-UI开）暂未上传。
 
+### 相关知识点
+
+* [java扫描某个路径下的所有文件（支持嵌套、可根据格式过滤筛选）](https://www.coderbbb.com/articles/37)
+* [springboot+vue播放视频流（无需下载视频，可以拖动进度、倍速播放）](https://www.coderbbb.com/articles/39)
+
+
 ### about us
 
 [coderbbb](https://www.coderbbb.com)
