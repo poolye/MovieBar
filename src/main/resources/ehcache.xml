@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- 磁盘缓存文件的路径 -->
+    <diskStore path="./tmp/Ehcache"/>
+
+    <!--
+        默认的缓存配置：
+        该配置将应用于 通过CacheManager.add(String cacheName)
+        以编程方式创建的缓存
+    -->
+    <defaultCache eternal="true"
+                  maxElementsInMemory="1"
+                  maxElementsOnDisk = "0"
+                  overflowToDisk="true"
+                  diskPersistent = "true">
+    </defaultCache>
+
+
+    <cache name="folderDataCache" eternal="true"
+                  maxElementsInMemory="1"
+                  maxElementsOnDisk = "0"
+                  overflowToDisk="true"
+                  diskPersistent = "true">
+    </cache>
+
+    <cache name="folderDataCatalogCache" eternal="true"
+           maxElementsInMemory="1"
+           maxElementsOnDisk = "0"
+           overflowToDisk="true"
+           diskPersistent = "true">
+    </cache>
+
+</ehcache>
