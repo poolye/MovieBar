@@ -11,8 +11,8 @@
 2. 下载安装maven
 3. clone本项目到本地，在项目根目录，使用maven命令`mvn clean package -DskipTests`打包成jar包。
 4. 使用`java -jar movie-bar-0.0.1-SNAPSHOT.jar`即可运行本项目。
-5. 在PC端浏览器访问：http://localhost:8888/，点击“添加文件夹”添加电脑端存放影片的文件夹。等待一会，程序会为影片生成缩略图和GIF供手机端浏览简介。
-6. 手机端访问：http://your pc local ip:8888/即可访问。
+5. 在PC端浏览器访问：http://localhost:8888/ ，点击“添加文件夹”添加电脑端存放影片的文件夹。等待一会，程序会为影片生成缩略图和GIF供手机端浏览简介。
+6. 手机端访问：`http://your pc local ip:8888/` 即可访问。
 
 ### 使用限制-defect
 

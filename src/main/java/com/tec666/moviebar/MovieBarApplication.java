@@ -24,6 +24,10 @@ public class MovieBarApplication {
 
     private final static Logger logger = LoggerFactory.getLogger(MovieBarApplication.class);
 
+    static {
+        System.setProperty(net.sf.ehcache.CacheManager.ENABLE_SHUTDOWN_HOOK_PROPERTY, "true");
+    }
+
     public static void main(String[] args) {
 
         List<String> localIpList = IpUtil.getLocalIpList();
